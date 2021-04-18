@@ -39,7 +39,17 @@ p {
     text-decoration: none;
 }
 
+img {
+    display: block;
+}
+
 /* ===== COMPONENT ===== */
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .list-item-header {
     font-weight: 500;
     font-size: 16px;
@@ -61,16 +71,22 @@ p {
 
 /* ===== HEADER ===== */
 
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .header .container {
     width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .navigation {
     display: flex;
     align-items: center;
-    height: 80px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .main-logo {
@@ -124,7 +140,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 600px;
     background-color: #2F303A;
 }
 
@@ -136,6 +151,7 @@ p {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding-top: 200px;
 }
 
 .hero-btn {
@@ -152,20 +168,18 @@ p {
     width: 200px;
     height: 50px;
     margin-top: 30px;
+    margin-bottom: 200px;
 }
 
 /* ===== END HERO ===== */
 
 /* =====  ADVANTAGE ===== */
 
-.advantage {
-    margin-top: 94px;
-}
-
 .advantage .container {
     width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .advantage_list {
@@ -200,42 +214,36 @@ p {
 
 /* =====  ABOUT US ===== */
 
-.about {
-    margin-top: 94px;
-}
-
 .about .container {
     width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: center;
 }
 
 .about_list-img {
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .about_list-img-item:not(:last-child) {
     margin-right: 30px;
 }
 
-
 /* ===== END ABOUT US ===== */
 
 /* ===== OUR TEAM ===== */
 
 .team {
-    height: 648px;
-    margin-top: 94px;
     background-color: #F5F4FA;
 }
 
 .team .container {
     width: 1200px;
     margin: 0 auto;
-    padding: 94px 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: center;
 }
 
@@ -269,7 +277,7 @@ p {
 /* =====  FOOTER ===== */
 
 .footer {
-    height: 252px;
+    /* height: 252px; */
     background-color: #2f303a;
 }
 
@@ -331,10 +339,10 @@ p {
     padding: 0 15px;
 }
 
+
 .main_section-nav-list {
     display: flex;
     justify-content: center;
-    margin-top: 94px;
     margin-bottom: 50px;
 }
 
@@ -375,7 +383,11 @@ p {
     margin-bottom: 30px;
     align-self: flex-start;
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+}
+
+
+.main_section-card-list-item-description {
+    border: 1px solid #eee;
 }
 
 .main_section-card-list-item:not(:nth-child(3n)) {
