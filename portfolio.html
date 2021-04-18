@@ -10,46 +10,64 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <title>Zadanie domowe #2 - portfolio GOIT POLSKA</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
 
-    <header class="header">
-        <nav class="navigation">
-            <a class="main-logo" href="#"><span>Web</span>Studio</a>
-            <ul class="navigation_list">
-                <li class="navigation_list-item"><a href="#" class="navigation_list-item-link">Agencja</a></li>
-                <li class="navigation_list-item"><a href="./portfolio.html"
-                        class="navigation_list-item-link">Portfolio</a>
-                </li>
-                <li class="navigation_list-item"><a href="#" class="navigation_list-item-link">Kontakt</a></li>
-            </ul>
+    <!-- -----HEADER----- -->
 
-            <ul class="navigation_list">
-                <li class="navigation_list-item"><a href="mailto:info@devstudio.com"
-                        class="navigation_list-item-link navigation_list-item-link-contact">info@devstudio.com</a>
-                </li>
-                <li class="navigation_list-item"><a href="tel:+48111111111"
-                        class="navigation_list-item-link navigation_list-item-link-contact">+48 111
-                        111 111</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+                <a class="main-logo link" href="#"><span>Web</span>Studio</a>
+                <ul class="navigation_list list">
+                    <li class="navigation_list-item"><a href="#" class="navigation_list-item-link link">Agencja</a></li>
+                    <li class="navigation_list-item"><a href="./portfolio.html"
+                            class="navigation_list-item-link link">Portfolio</a></li>
+                    <li class="navigation_list-item"><a href="#" class="navigation_list-item-link link">Kontakt</a></li>
+                </ul>
+
+                <ul class="navigation_list list">
+                    <li class="navigation_list-item"><a href="mailto:info@devstudio.com"
+                            class="navigation_list-item-link link navigation_list-item-link-contact">info@devstudio.com</a>
+                    </li>
+                    <li class="navigation_list-item"><a href="tel:+48111111111"
+                            class="navigation_list-item-link link navigation_list-item-link-contact">+48 111
+                            111 111</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
+
+        <!-- -----MAIN SECTION----- -->
+
         <section class="main_section">
-            <ul class="main_section-nav-list">
-                <li class="main_section-nav-list-item"><button class="main_section-nav-list-item-btn">Strony</button>
-                </li>
-                <li class="main_section-nav-list-item"><button class="main_section-nav-list-item-btn">Aplikacje</button>
-                </li>
-                <li class="main_section-nav-list-item"><button class="main_section-nav-list-item-btn">Design</button>
-                </li>
-                <li class="main_section-nav-list-item"><button class="main_section-nav-list-item-btn">Marketing</button>
-                </li>
-            </ul>
-            <ul class="main_section-card-list">
+            <div class="container">
+                <ul class="main_section-nav-list list">
+                    <li class="main_section-nav-list-item"><button
+                            class="main_section-nav-list-item-btn">Wszystkie</button>
+                    </li>
+                    <li class="main_section-nav-list-item"><button
+                            class="main_section-nav-list-item-btn">Strony</button>
+                    </li>
+                    <li class="main_section-nav-list-item" list><button
+                            class="main_section-nav-list-item-btn">Aplikacje</button>
+                    </li>
+                    <li class="main_section-nav-list-item"><button
+                            class="main_section-nav-list-item-btn">Design</button>
+                    </li>
+                    <li class="main_section-nav-list-item"><button
+                            class="main_section-nav-list-item-btn">Marketing</button>
+                    </li>
+                </ul>
+            </div>
+
+            <ul class="main_section-card-list list">
                 <li class="main_section-card-list-item">
                     <img class="" src="./images/portfolio/technocrack.jpg" alt="Strona internetowa Technocrack"
                         width="370" height="294">
@@ -104,22 +122,28 @@
         </section>
     </main>
 
-
-
+    <!-- -----FOOTER----- -->
 
     <footer class="footer">
-        <a class="main-logo footer-logo" href="#"><span>Web</span>Studio</a>
+        <div class="container">
 
-        <address class="address">
-            <ul class="address_list">
-                <li class="address_list-item">m. Warszawa, Aleje jerozolimskie 21</li>
-                <li class="address_list-item"><a href="mailto:info@example.com"
-                        class="address_list-item-contact">info@example.com</a></li>
-                <li class="address_list-item"><a href="tel:+48111111111" class="address_list-item-contact">+48
-                        111 111 111</a></li>
-            </ul>
-        </address>
+            <a class="main-logo footer-logo link" href="#"><span>Web</span>Studio</a>
+
+            <address class="address">
+                <ul class="address_list">
+                    <li class="address_list-item list">m. Warszawa, Aleje jerozolimskie 21</li>
+                    <li class="address_list-item list"><a href="mailto:info@example.com"
+                            class="address_list-item-contact link">info@example.com</a></li>
+                    <li class="address_list-item list"><a href="tel:+48111111111"
+                            class="address_list-item-contact link">+48
+                            111
+                            111
+                            111</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
+
 </body>
 
 </html>
