@@ -69,7 +69,6 @@ p {
 
 .navigation {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     height: 80px;
 }
@@ -81,7 +80,6 @@ p {
     line-height: 1.192;
     letter-spacing: 0.03em;
     color: #000000;
-    /* margin-right: 50px; */
 }
 
 .main-logo span {
@@ -92,6 +90,11 @@ p {
     display: flex;
     flex-basis: 272px;
     justify-content: space-between;
+    margin-left: 95px;
+}
+
+.navigation_list:last-child {
+    margin-left: auto;
 }
 
 .navigation_list-item-link {
@@ -266,7 +269,16 @@ p {
 /* =====  FOOTER ===== */
 
 .footer {
+    height: 252px;
     background-color: #2f303a;
+}
+
+.footer .container {
+    margin: 0 auto;
+    padding: 60px 15px;
+    display: flex;
+    width: 1200px;
+    flex-direction: column;
 }
 
 .footer-logo {
@@ -275,6 +287,7 @@ p {
 
 .address_list {
     font-style: normal;
+    margin-top: 20px;
 }
 
 .address_list-item {
@@ -282,6 +295,10 @@ p {
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: #FFF;
+}
+
+.address_list-item:not(:first-child) {
+    padding-top: 9px;
 }
 
 .address_list-item-contact {
@@ -298,7 +315,11 @@ p {
 
 /* ===== END FOOTER ===== */
 
+
+
 /* ------===== PORTFOLIO =====------- */
+
+
 
 /* =====  MAIN SECTION ===== */
 
